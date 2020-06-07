@@ -21,10 +21,9 @@ cat .env
 1. Migrate tables
 2. Create a user
 3. Run server
-4. Access admin panel <http://127.0.0.1:8000>
+4. Access admin panel <http://127.0.0.1:8000/admin>
 
 ```console
 python manage.py migrate
-python manage.py createsuperuser
-python manage.py runserver
+python manage.py createsuperuser && python manage.py runserver
 ```
